@@ -18,6 +18,8 @@ background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Fire
 }
 body{
     background-image: url('https://blog.andertons.co.uk/wp-content/uploads/2018/03/drum-blog-image-1.jpg');
+    -moz-background-size:100%;
+    background-size:100%;
 }
 /* round corner */
 .drum-pad, #drum-machine, #display{
@@ -50,8 +52,8 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
     margin-top: 30px;
     align-content: center;
     text-align: center;
-    min-height:600px;
-    width: 40%;
+    height:600px;
+    width: 500px;
 
   display: grid;
   justify-content: center;
